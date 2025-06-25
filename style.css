@@ -157,7 +157,6 @@ body {
   outline: none;
   background: #fff;
   color: #222;
-  vertical-align: middle;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
   z-index: 3;
 }
@@ -254,6 +253,12 @@ body {
   .product-card .get-deal-btn {
       font-size: 0.95rem;
       padding: 6px 14px;
+  }
+  .navbar-title-mobile {
+    display: none;
+  }
+  .navbar-title {
+    display: none;
   }
 }
 @media (max-width: 480px) {
