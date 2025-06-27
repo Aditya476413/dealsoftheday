@@ -5,7 +5,7 @@ body {
 }
 .container {
   display: flex;
-  height: 100vh;
+  height: 10vh;
 }
 .sidebar {
   width: 250px;
