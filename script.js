@@ -75,8 +75,8 @@ document.addEventListener('DOMContentLoaded', function() {
     const products = [
         {
             name: 'iPhone 14 Pro',
-            img: 'https://dummyimage.com/300x200/eee/333&text=iPhone+14+Pro',
-            link: 'https://www.apple.com/in/iphone-14-pro/',
+            img: 'https://rukminim2.flixcart.com/image/840/1260/xif0q/shirt/b/n/h/m-sh-chi-9-u-turn-original-imah4rkmchhgsg6a.jpeg?q=60&crop=false',
+            link: 'https://www.wishlink.com/share/sb8n7',
             category: 'phonefinder'
         },
         {
