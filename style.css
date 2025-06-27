@@ -58,8 +58,8 @@ body {
   display: none;
 }
 .hamburger {
-  width: 289px;
-  height: 289px;
+  width: 28px;
+  height: 28px;
   display: flex;
   flex-direction: column;
   justify-content: center;
