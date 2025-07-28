@@ -1,40 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Affiliate Marketing - Deal of the Day</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <title>Your Deals Site</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f9f9f9; }
+    .container { width: 90%; max-width: 1200px; margin: auto; }
+    .product { background: #fff; padding: 15px; border-radius: 8px; margin: 20px; position: relative; float: left; width: calc(25% - 40px); }
+    .discount-badge { background: #e74c3c; color: white; padding: 8px; position: absolute; top: 10px; right: 10px; border-radius: 4px; }
+    .price del { color: gray; margin-right: 10px; }
+    .price ins { color: #27ae60; font-size: 1.2em; font-weight: bold; }
+    .btn { background: #2980b9; color: white; padding: 10px 15px; text-decoration: none; border-radius: 5px; display: block; margin-top: 10px; text-align: center; }
+  </style>
 </head>
 <body>
-    <div class="container">
-        <div class="sidebar" id="sidebar">
-            <div class="dropdown-container">
-                <ul class="deals-list" id="dealsList"></ul>
-            </div>
-        </div>
-        <div class="main-content">
-            <div class="top-bar">
-                <button class="hamburger-toggle" id="hamburgerToggle" aria-label="Open Sidebar">
-                    <span class="hamburger">
-                        <span></span>
-                        <span></span>
-                        <span></span>
-                    </span>
-                </button>
-                <span class="navbar-title">Deals of the Day</span>
-                <span class="navbar-title-mobile">Deals of the Day</span>
-                <svg class="search-icon" id="searchIcon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <circle cx="11" cy="11" r="70" stroke="#333" stroke-width="2"/>
-                    <line x1="16.018" y1="16.485" x2="21" y2="21.5" stroke="#333" stroke-width="2" stroke-linecap="round"/>
-                </svg>
-                <input type="text" id="navbarSearchInput" class="navbar-search-input" placeholder="Search..." style="display:none;" />
-            </div>
-            <div class="scrolling-banner"><span>Deals of the day&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Enjoy 10% Off&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Deals of the day&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Enjoy 10% Off&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Deals of the day&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Enjoy 10% Off&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Deals of the day&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Enjoy 10% Off&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Deals of the day&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;Enjoy 10% Off</span></div>
-            <!-- Main content goes here -->
-            <div id="productCards" class="product-cards"></div>
-        </div>
+  <div class="container">
+    <div class="product">
+      <div class="discount-badge">‑90%</div>
+      <h3>Men’s Jacket</h3>
+      <div class="price"><del>₹1,999</del> <ins>₹250</ins></div>
+      <a href="#" class="btn">Buy Now</a>
     </div>
-    <script src="script.js"></script>
+    <!-- Repeat other products -->
+  </div>
 </body>
-</html> 
+</html>
